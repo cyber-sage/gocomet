@@ -46,7 +46,47 @@ console.log(user.address.office.area.landmark);
 Question-3
 
 
+//html
 
+<div class="main">
+  <div class="inner">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+  </div>
+</div>
+
+
+//css
+
+.main{
+  background-color:blue;
+  height:200px;
+  width:200px;
+  display:flex;
+ justify-content:center;
+  align-items:center;
+}
+.inner{
+   background-color:red;
+   height:150px;
+  width:150px;
+  
+
+}
+.circle1{
+   background-color:grey;
+  height:40px;
+  width:40px;
+  border-radius:50%;
+  margin-left:60px;
+}
+.circle2{
+   background-color:grey;
+  height:40px;
+  width:40px;
+  border-radius:50%;
+  margin-top:20px;
+}
 
 
 
